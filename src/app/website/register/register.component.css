@@ -1,0 +1,165 @@
+mat-card{
+    max-width: 650px;
+    margin: 2em auto;
+    text-align: center;
+    max-height: 600px;
+    width:100%;
+}
+::ng-deep input.mat-input-element {
+    color: white;
+}
+
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: #00ADB5 !important;
+}
+
+
+::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple {
+    background-color: #00ADB5 !important;
+    border-radius: 50px;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {
+    color: #00ADB5;
+    border-radius: 50px;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+    color: #00ADB5 !important;
+
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #00ADB5;
+    border-radius: 1000px;
+}
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: #00ADB5;
+}
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label {
+    color: #00ADB5;
+    border-radius: 1000px;
+}
+.registeration {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://w0.peakpx.com/wallpaper/484/859/HD-wallpaper-macbook-pro-apple-laptop-headphones-apple-macbook-pro-laptop-headphones.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay div h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Tiro Bangla', serif;
+}
+
+.registeration .overlay button:hover {
+    background-image: linear-gradient(to right, #00adb5, #8dcccf, #65c3c8, #85bda2);
+    box-shadow: 0 4px 15px 0 rgba(138, 225, 222, 0.75);
+
+}
+
+.registeration .overlay button {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.registeration .overlay button:hover {
+    background-position: 100% 0;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+:host ::ng-deep .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle,
+.mat-radio-outer-circle {
+    border-color: #00ADB5 !important;
+    /* Sets outer circle & click effect color */
+}
+
+:host ::ng-deep .mat-radio-button.mat-accent .mat-radio-inner-circle {
+    background-color: #00ADB5 !important;
+    /* Sets inner circle color */
+}
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background,
+.mat-checkbox-indeterminate .mat-checkbox-background {
+    background-color: #00ADB5 !important;
+}
+
+
+::ng-deep .mat-checkbox:not(.mat-checkbox-disabled) .mat-checkbox-ripple .mat-ripple-element {
+    background-color: #00ADB5 !important;
+}
+
+.mat-card {
+    background-color: rgba(56, 56, 56, 0.5);
+}
+
+::ng-deep .mat-form-field-outline-start {
+    border-radius: 28px 0 0 28px !important;
+    min-width: 28px !important;
+}
+
+::ng-deep .mat-form-field-outline-end {
+    border-radius: 0 30px 30px 0 !important;
+}
+
+/* ::ng-deep .mat-form-field-underline,
+::ng-deep .mat-form-field-ripple {
+    background-color: #00adb5 !important;
+}
+
+*/
+/* .card{
+    margin-top: 4px;
+    border: none;
+    width: 500px;
+    padding: 40;
+    position: absolute;
+
+    
+   
+} */
+.Registration{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://w0.peakpx.com/wallpaper/484/859/HD-wallpaper-macbook-pro-apple-laptop-headphones-apple-macbook-pro-laptop-headphones.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+mat-card {
+    background-color: rgba(56, 56, 56, 0.5);
+}

@@ -1,0 +1,199 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "Username": "Shailesh Kumar Chaudhary",
+      "Country": "UK",
+      "Password": "123"
+    },
+    {
+      "id": 2,
+      "Username": "Rohit",
+      "Country": "US",
+      "Password": "1234"
+    },
+    {
+      "id": 3,
+      "Username": "Saytam",
+      "Country": "UK",
+      "Password": "12345"
+    },
+    {
+      "id": 4,
+      "Username": "Shivam",
+      "Country": "NewYork",
+      "Password": "123456"
+    },
+    {
+      "id": 5,
+      "Username": "Vertika Gupta",
+      "Country": "London",
+      "Password": "1234567"
+    },
+    {
+      "id": 6,
+      "Username": "Shruti Gupta",
+      "Country": "India",
+      "Password": "12345678"
+    },
+    {
+      "Username": "Raj.kumar",
+      "FirstName": "RajKumar",
+      "LastName": "Chaudhary",
+      "Contactnumber": "1234567890",
+      "EmailId": "abc@123.com",
+      "Password": "123",
+      "ConfirmPassword": "123",
+      "Address": "adf",
+      "id": 7
+    },
+    {
+      "Username": "Amar",
+      "FirstName": "Kumar",
+      "LastName": "Chaudhary",
+      "Contactnumber": "7413833024",
+      "EmailId": "chaudharykumar142@gmail.com",
+      "Password": "12345",
+      "ConfirmPassword": "12345",
+      "Address": "rampur",
+      "id": 8
+    },
+    {
+      "Username": "Kalpraj.chaudhary",
+      "FirstName": "kalpraj",
+      "LastName": "Chaudhary",
+      "Contactnumber": "7413833024",
+      "EmailId": "chaudharykumar142@gmail.com",
+      "Password": "12345",
+      "ConfirmPassword": "12345",
+      "Address": "rampur",
+      "id": 9
+    },
+    {
+      "Username": "Kalpraj.chaudhary",
+      "FirstName": "kalpraj",
+      "LastName": "Chaudhary",
+      "Contactnumber": "7413833024",
+      "EmailId": "chaudharykumar142@gmail.com",
+      "Password": "12345",
+      "ConfirmPassword": "12345",
+      "Address": "rampur",
+      "id": 10
+    },
+    {
+      "Username": "rajkumar.chaudhary",
+      "FirstName": "rajKumar",
+      "LastName": "Chaudhary",
+      "Contactnumber": "8948251881",
+      "EmailId": "abc@gmail.com",
+      "Password": "12345",
+      "ConfirmPassword": "12345",
+      "Address": "GovindPurm",
+      "id": 11
+    },
+    {
+      "Username": "admin.chaudhary",
+      "FirstName": "Vertika ",
+      "LastName": "Gupta",
+      "Contactnumber": "8948251881",
+      "EmailId": "abc@gmail.com",
+      "Password": "123456",
+      "ConfirmPassword": "123456",
+      "Address": "Noida sector-144",
+      "id": 12
+    },
+    {
+      "Username": "Pooja123",
+      "FirstName": "Pooja",
+      "LastName": "Kumari",
+      "Contactnumber": "1234",
+      "EmailId": "abc@gmail.com",
+      "Password": "1234",
+      "ConfirmPassword": "123",
+      "Address": "Rampur",
+      "id": 13
+    },
+    {
+      "Username": "Amar123",
+      "FirstName": "Amar",
+      "LastName": "Kumar",
+      "Contactnumber": "8948251881",
+      "EmailId": "abc@gmail.com",
+      "Password": "123",
+      "ConfirmPassword": "123",
+      "Address": "Noida sector-144",
+      "id": 14
+    },
+    {
+      "Username": "Amar123",
+      "FirstName": "Aman",
+      "LastName": "Kumar",
+      "Contactnumber": "8948251881",
+      "EmailId": "abc@gmail.com",
+      "Password": "123",
+      "ConfirmPassword": "123",
+      "Address": "Noida sector-144",
+      "id": 15
+    },
+    {
+      "Username": "",
+      "FirstName": null,
+      "LastName": null,
+      "Contactnumber": null,
+      "EmailId": null,
+      "Password": null,
+      "ConfirmPassword": "",
+      "Address": "",
+      "id": 16
+    },
+    {
+      "Username": "",
+      "FirstName": null,
+      "LastName": null,
+      "Contactnumber": null,
+      "EmailId": null,
+      "Password": null,
+      "ConfirmPassword": "",
+      "Address": "",
+      "id": 17
+    },
+    {
+      "Username": "xyx.com",
+      "FirstName": "raj",
+      "LastName": "kumar",
+      "Contactnumber": "1234",
+      "EmailId": "xyz@gmail.com",
+      "Password": "8948",
+      "ConfirmPassword": "8948",
+      "Address": "Rampur",
+      "id": 18
+    },
+    {
+      "Username": "",
+      "FirstName": null,
+      "LastName": null,
+      "Contactnumber": null,
+      "EmailId": null,
+      "Password": null,
+      "ConfirmPassword": "",
+      "Address": "",
+      "id": 19
+    }
+  ],
+  "Profiles": [
+    {
+      "id": 1,
+      "UserId": 1,
+      "Job": "IT"
+    },
+    {
+      "id": 2,
+      "Job": "Developer"
+    },
+    {
+      "id": 3,
+      "UserId": 1,
+      "Job": "Manager"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+
+  <nav class="navbar navbar-expand-lg p-0">
+    <div class="container-fluid" style="background-color:black;width: 100%; height: 55px;">
+      <div class="row"></div>
+      <div class="">
+      <div class="col-md-3">
+        <a class="navbar-brand" href="#" style="color:#EEEEEE;margin-right: 50px;">Amazon.in</a>
+      </div>
+    </div>
+    <div class="example">
+  <select name="information" id="information" style="height:38px; border-radius:8px;">
+    <option value="Amazon device">device</option>
+    <option value="Amazon fashion">fashion</option>
+    <option value="Amazon pharmacy">pharmacy</option>
+    <option value="apps and game">Game</option>
+    <option value="book">Book</option>
+  </select>
+</div>
+      <div class="col-md-6"> 
+        <form class="">
+          <div class="row">
+            <div class="col-md-8"> 
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search"></div>
+            <div class="col-md-4">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </div>
+          </div> 
+        </form>
+      </div>
+      <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-6"><button type="button" class="btn btn-success" routerLink="/login">Login</button>
+          </div>
+          <div class="col-md-6"><button type="button" class="btn btn-success" routerLink="/register">Register</button>
+          </div>
+        </div>
+      </div>   
+  </div>
+  </nav>
+  <div *ngIf="login">
+   <app-header></app-header>
+  </div>
+ 
+  <!-- <app-home></app-home> -->
+  
+ 
+ 
+ 
+ 
+
+
+
+   
+ 
+  

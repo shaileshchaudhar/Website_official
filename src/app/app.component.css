@@ -1,0 +1,9 @@
+/* .container-fluid{
+    height: 65px;
+} */
+.content{
+    min-height: 100%;
+    padding:60px 1rem;
+    background-color:#EEEEEE;
+    display: block;
+}

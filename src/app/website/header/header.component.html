@@ -1,0 +1,119 @@
+<div class="row">
+    <mat-toolbar  style="background-color:#1C2833 ;">
+      <button class="example-icon" mat-button (click)="drawer.toggle()"  aria-label="Example icon-button with menu icon">
+        <mat-icon style="color:#EEEEEE">menu</mat-icon>
+      </button>
+      <span style="color:#EEEEEE">All</span>
+      <a href="#" mat-button style="color:#EEEEEE">Amazon miniTV </a> 
+      <a href="#" mat-button style="color:#EEEEEE">Best Seller</a>
+      <a href="#" mat-button style="color:#EEEEEE">Mobiles</a>
+      <a href="#" mat-button style="color:#EEEEEE">Today's deals</a>
+      <a href="#" mat-button style="color:#EEEEEE">Customer services </a>
+      <a href="#" mat-button style="color:#EEEEEE">Electronic </a>
+    </mat-toolbar>
+</div>
+<div class="row h-100">
+    <mat-drawer-container class="example-container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.shutterstock.com/shutterstock/photos/1251569434/display_1500/stock-photo-logistics-center-in-the-light-of-the-rising-sun-1251569434.jpg" class="d-block w-100" alt="..." style="height: 450px;width:800px;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.shutterstock.com/image-photo/lhospitalet-de-llobregat-spain-7-600w-624049301.jpg" class="d-block w-100" alt="..." style="height:450px;width:800px;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.shutterstock.com/image-photo/milan-italy-december-27-2017-600w-781661227.jpg" class="d-block w-100" alt="..." style="height:450px;width:800px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    
+        <mat-drawer #drawer class="example-sidenav" mode="side" style="width:20%;">           
+    <ul style="text-align: center;">
+    <a>Best sellers</a>
+    <br>
+    <br>
+    <a>New releases</a>
+    <br>
+    <br>
+    <a>Movers and shakers</a>
+    <br>
+    <mat-divider></mat-divider>
+    <br>
+    <h1>Digital Content and Devices</h1>
+    <br>
+    <a>Amazon Mini TV</a>
+    <br>
+    <br>
+    <a>Echo & Alexa</a>
+    <br>
+    <br>
+    <a>Fire TV</a>
+    <br>
+    <br>
+    <a>Kindle E-Readers & eBooks</a>
+    <br>
+    <br>
+    <a>Audible Audiobooks</a>
+    <br>
+    <br>
+    <a>Amazon Prime Video</a>
+    <br>
+    <br>
+    <a>Amazon prime Music</a>
+    <mat-divider></mat-divider>
+    <br>
+    <h1>Shop By Category</h1>
+    <br>
+    <a> Mobile Computers</a>
+    <br>
+    <br>
+    <a>TV,Appliances,Electronics</a>
+    <br>
+    <br>
+    <a>Men's Fashion</a>
+    <br>
+    <br>
+    <a>Womens's Fashion</a>
+    <br>
+    <br>
+    
+        <button mat-button [matMenuTriggerFor]="animals"><div><span>See All</span><mat-icon fontIcon="arrow_drop_down"></mat-icon></div></button>
+    <mat-menu #animals="matMenu">
+    <button mat-menu-item><div><span style="margin-right:50px;">Home,Kitchen,Pets</span><mat-icon fontIcon="chevron_right" ></mat-icon></div></button>
+    <button mat-menu-item><div><span style="margin-right:40px;">Sports,Fitness,Bags</span><mat-icon fontIcon="chevron_right"></mat-icon></div></button>
+    <button mat-menu-item><div><span style="margin-right:5px;">Toys,Baby Products,Kids'</span><mat-icon fontIcon="chevron_right"></mat-icon></div></button>
+    <button mat-menu-item><div><span style="margin-right:12px;">Car,Motorbike,Industrial</span><mat-icon  fontIcon="chevron_right"></mat-icon></div></button>
+    <button mat-menu-item><div><span style="margin-right:140px;">Books</span><mat-icon fontIcon="chevron_right"></mat-icon></div></button>
+    <button mat-menu-item><div><span style="margin-right:19px;"> Movies,Music & Video</span><mat-icon fontIcon="chevron_right"></mat-icon></div></button>
+    </mat-menu>
+    
+    <mat-divider></mat-divider>
+    <br>
+    <h1>Program &Features</h1>
+    </ul>
+    </mat-drawer>
+    </mat-drawer-container>
+
+</div>
+    
+  
+
+  
+
+   
+  
+ 

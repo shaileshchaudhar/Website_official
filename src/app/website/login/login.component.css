@@ -1,0 +1,42 @@
+mat-card{
+    max-width: 650px;
+    margin: 2em auto;
+    text-align: center;
+    max-height: 600px;
+    background-color: rgba(56, 56, 56, 0.5);
+}
+.header{
+    text-align: center;
+}
+
+.forget-password{
+    padding-left: 0px;
+}
+.user-input{
+    padding-top: 10px;
+}
+.aLink{
+    float:right;
+    padding-right: 60px;
+    text-decoration: none;
+}
+.example-full-width{
+    align-items: center;
+}
+.login{
+    width: 100%;
+      height: 100vh;
+      background-image: url('https://w0.peakpx.com/wallpaper/484/859/HD-wallpaper-macbook-pro-apple-laptop-headphones-apple-macbook-pro-laptop-headphones.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+       
+      
+
